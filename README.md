@@ -9,7 +9,7 @@ The simulator features a graphical interface that enables users to:
 - Load generated programs into the simulated SIC/XE virtual machine;
 - Monitor register states, memory, and step-by-step execution.
 
-## Pré-requisitos
+## Dependencies
 
 - Java 17 or higher;
 - Gradle (wrapper included in the project.
@@ -110,10 +110,6 @@ These instructions have placeholders (stubs) that generate informative logs indi
 | [`Linker`](src/main/java/sicxesimulator/software/linker/Linker.java)                         | Links object modules.           |
 | [`Loader`](src/main/java/sicxesimulator/software/loader/Loader.java)                         | Loads `.obj` files into memory. |
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 # [PT-BR] Simulador SIC/XE
 
 Este projeto é um simulador acadêmico da arquitetura SIC/XE (Simplified Instructional Computer with Extra Equipment), desenvolvido com Java e JavaFX. O programa permite escrever código assembly SIC/XE, montar programas em linguagem simbólica, realizar ligação de múltiplos módulos e carregá-los na memória virtual, simulando sua execução.
@@ -125,7 +121,7 @@ O simulador conta com uma interface gráfica que permite ao usuário:
 - Carregar programas gerados na máquina virtual SIC/XE simulada;
 - Acompanhar o estado dos registradores, memória e execução passo-a-passo.
 
-## Pré-requisitos
+## Dependências
 
 - Java 17 ou superior;
 - Gradle (wrapper incluso no projeto).
@@ -225,7 +221,3 @@ Essas instruções possuem placeholders (stubs) que geram logs informativos indi
 | [`Assembler`](src/main/java/sicxesimulator/software/assembler/Assembler.java)                | Coordena as fases da montagem do programa.     |
 | [`Linker`](src/main/java/sicxesimulator/software/linker/Linker.java)                         | Realiza a ligação de módulos objeto.           |
 | [`Loader`](src/main/java/sicxesimulator/software/loader/Loader.java)                         | Realiza a carga de arquivos `.obj` na memória. |
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
